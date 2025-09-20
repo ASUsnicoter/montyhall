@@ -1,0 +1,13 @@
+Package: montyhall
+Title: Simulates the Monty Hall Problem Game
+Version: 0.0.0.9000
+Authors@R: 
+    person("Santiago", "Nicotera Balatti", , "snicoter@asu.edu", role = c("aut", "cre"))
+Description: Provides functions to simulate the Monty Hall Problem Game, a probability puzzle based on the TV show "Let's Make a Deal." The package allows users to play single games or simulate many repetitions, and compare the effectiveness of different strategies (staying vs switching doors).
+Depends:
+	dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
